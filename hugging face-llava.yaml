@@ -1,0 +1,148 @@
+- url: github:go-skynet/model-gallery/base.yaml
+  name: mys__ggml_llava-v1.5-13b__ggml-model-f16.gguf
+  urls:
+    - https://huggingface.co/mys/ggml_llava-v1.5-13b
+  tags:
+    - gguf
+    - llava
+    - lmm
+    - ggml
+    - llama.cpp
+    - region:us
+  overrides:
+    parameters:
+        model: ggml-model-f16.gguf
+  files:
+    - filename: ggml-model-f16.gguf
+      sha256: ""
+      uri: https://huggingface.co/mys/ggml_llava-v1.5-13b/resolve/main/ggml-model-f16.gguf
+- url: github:go-skynet/model-gallery/base.yaml
+  name: mys__ggml_llava-v1.5-13b__ggml-model-q4_k.gguf
+  urls:
+    - https://huggingface.co/mys/ggml_llava-v1.5-13b
+  tags:
+    - gguf
+    - llava
+    - lmm
+    - ggml
+    - llama.cpp
+    - region:us
+  overrides:
+    parameters:
+        model: ggml-model-q4_k.gguf
+  files:
+    - filename: ggml-model-q4_k.gguf
+      sha256: ""
+      uri: https://huggingface.co/mys/ggml_llava-v1.5-13b/resolve/main/ggml-model-q4_k.gguf
+- url: github:go-skynet/model-gallery/base.yaml
+  name: mys__ggml_llava-v1.5-13b__ggml-model-q5_k.gguf
+  urls:
+    - https://huggingface.co/mys/ggml_llava-v1.5-13b
+  tags:
+    - gguf
+    - llava
+    - lmm
+    - ggml
+    - llama.cpp
+    - region:us
+  overrides:
+    parameters:
+        model: ggml-model-q5_k.gguf
+  files:
+    - filename: ggml-model-q5_k.gguf
+      sha256: ""
+      uri: https://huggingface.co/mys/ggml_llava-v1.5-13b/resolve/main/ggml-model-q5_k.gguf
+- url: github:go-skynet/model-gallery/base.yaml
+  name: mys__ggml_llava-v1.5-13b__mmproj-model-f16.gguf
+  urls:
+    - https://huggingface.co/mys/ggml_llava-v1.5-13b
+  tags:
+    - gguf
+    - llava
+    - lmm
+    - ggml
+    - llama.cpp
+    - region:us
+  overrides:
+    parameters:
+        model: mmproj-model-f16.gguf
+  files:
+    - filename: mmproj-model-f16.gguf
+      sha256: ""
+      uri: https://huggingface.co/mys/ggml_llava-v1.5-13b/resolve/main/mmproj-model-f16.gguf
+- url: github:go-skynet/model-gallery/base.yaml
+  name: mys__ggml_llava-v1.5-7b__ggml-model-f16.gguf
+  urls:
+    - https://huggingface.co/mys/ggml_llava-v1.5-7b
+  tags:
+    - gguf
+    - llava
+    - lmm
+    - ggml
+    - llama.cpp
+    - has_space
+    - region:us
+  overrides:
+    parameters:
+        model: ggml-model-f16.gguf
+  files:
+    - filename: ggml-model-f16.gguf
+      sha256: ""
+      uri: https://huggingface.co/mys/ggml_llava-v1.5-7b/resolve/main/ggml-model-f16.gguf
+- url: github:go-skynet/model-gallery/base.yaml
+  name: mys__ggml_llava-v1.5-7b__ggml-model-q4_k.gguf
+  urls:
+    - https://huggingface.co/mys/ggml_llava-v1.5-7b
+  tags:
+    - gguf
+    - llava
+    - lmm
+    - ggml
+    - llama.cpp
+    - has_space
+    - region:us
+  overrides:
+    parameters:
+        model: ggml-model-q4_k.gguf
+  files:
+    - filename: ggml-model-q4_k.gguf
+      sha256: ""
+      uri: https://huggingface.co/mys/ggml_llava-v1.5-7b/resolve/main/ggml-model-q4_k.gguf
+- url: github:go-skynet/model-gallery/base.yaml
+  name: mys__ggml_llava-v1.5-7b__ggml-model-q5_k.gguf
+  urls:
+    - https://huggingface.co/mys/ggml_llava-v1.5-7b
+  tags:
+    - gguf
+    - llava
+    - lmm
+    - ggml
+    - llama.cpp
+    - has_space
+    - region:us
+  overrides:
+    parameters:
+        model: ggml-model-q5_k.gguf
+  files:
+    - filename: ggml-model-q5_k.gguf
+      sha256: ""
+      uri: https://huggingface.co/mys/ggml_llava-v1.5-7b/resolve/main/ggml-model-q5_k.gguf
+- url: github:go-skynet/model-gallery/base.yaml
+  name: mys__ggml_llava-v1.5-7b__mmproj-model-f16.gguf
+  urls:
+    - https://huggingface.co/mys/ggml_llava-v1.5-7b
+  tags:
+    - gguf
+    - llava
+    - lmm
+    - ggml
+    - llama.cpp
+    - has_space
+    - region:us
+  overrides:
+    parameters:
+        model: mmproj-model-f16.gguf
+  files:
+    - filename: mmproj-model-f16.gguf
+      sha256: ""
+      uri: https://huggingface.co/mys/ggml_llava-v1.5-7b/resolve/main/mmproj-model-f16.gguf
